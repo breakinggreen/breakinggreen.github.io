@@ -1,0 +1,28 @@
+@import "side_pages";
+
+section#content {
+    font-family: $body-font;
+    margin-bottom: 7vh;
+
+    @include up-md {
+        .logo img {
+            width: 85vw;
+        }
+    }
+
+
+    .title,
+    .subtitle {
+        font-family: $heading-font;
+    }
+
+    .title {
+        font-size: 2em;
+        color: main-color(app-black);
+    }
+
+    .subtitle {
+        font-size: 1.2em;
+        color: main-color(app-blue-dark)
+    }
+}
